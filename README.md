@@ -41,3 +41,5 @@ b、# /bin/rm file 直接删除文件而不经过回收站
 
 2、适用系统linux、mac osx
 
+
+wget --no-check-certificate https://raw.githubusercontent.com/angviza/rmtrash/master/rmtrash.sh && mv rmtrash.sh /bin/ && chmod +x /bin/rmtrash.sh && echo "alias rm=/bin/rmtrash.sh" >>/etc/bashrc && source ~/.bashrc
